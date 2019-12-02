@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import Form from './Components/Form'
-import Refs from './Components/Refs';
+import FocusInput from './Components/FocusInput';
 
 
 
@@ -10,7 +9,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Refs />
+      <FocusInput />
     </div>
   );
 }
