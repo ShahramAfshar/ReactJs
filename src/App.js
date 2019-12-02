@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import Form from './Components/Form'
-import ParComponent from './Components/ParComponent';
+import Refs from './Components/Refs';
 
 
 
@@ -10,7 +10,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <ParComponent />
+      <Refs />
     </div>
   );
 }
