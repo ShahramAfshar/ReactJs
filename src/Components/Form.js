@@ -47,6 +47,7 @@ const {userName , comment,topic} = this.state;
               <label>user name </label>
               <input value={userName} onChange={this.chaneHandler} type='text' />
             <textarea value={comment} onChange={this.changeComment} />
+            <input value="sa" />
           </div>
           <div>
               <label>Topic</label>
